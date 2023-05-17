@@ -155,7 +155,7 @@ class ApiController extends BaseController
                 $statusMesin->update($id, [
                     'status_mesin' => 'OFF'
                 ]);
-            } elseif ($waktuSekarang >= '07:25:00' && $waktuSekarang <= '07:24:00') {
+            } elseif ($waktuSekarang >= '07:25:00' && $waktuSekarang <= '07:40:00') {
                 $statusMesin->update($id, [
                     'status_mesin' => 'OFF'
                 ]);

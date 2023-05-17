@@ -31,7 +31,7 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'JadwalSholat::index');
 $routes->get('/fetch', 'ApiController::save');
-$routes->get('/cek', 'ApiController::check');
+$routes->get('/api', 'ApiController::check');
 $routes->get('/time', 'Time::index');
 /*
  * --------------------------------------------------------------------
